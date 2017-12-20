@@ -1,0 +1,105 @@
+body {
+  text-align: center;
+  margin: 0px;
+  font-size: 25px;
+  align-content: center;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+div.header{
+  height: 672px;
+  background-image: url(https://static.pexels.com/photos/574314/pexels-photo-574314.jpeg);
+  background-size: 1349px 672px;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+h1.name{
+    font-family: "UBUNTU";
+    padding-top: 2%;
+    font-size: 60px;
+}
+
+.pic {
+  padding-top: 8%;
+}
+
+img.dp {
+  padding-top: 0px;
+  height: auto;
+  width: 25%;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: blue;
+}
+
+.short {
+  font-family: 'Roboto', sans-serif;
+}
+
+.short, .about {
+  padding: 0px 20px 0px 20px;
+}
+
+div.about{
+  padding-bottom: 20px;
+  background-color: #FFEB3B;
+}
+
+.skills.row{
+    margin: 0px;
+}
+
+.about, .a1, .a2, .a3, .ISSDC-About{
+  padding-top: 45px;
+  padding-bottom: 20px;
+}
+
+.a1{
+  background-color: #FF9800;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.a2{
+  color: #03A9F4;
+}
+
+.a3{
+    background-color: #4CAF50;
+}
+
+.ISSDC :hover{
+  color: blue;
+}
+
+.achievement{
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: 0px;
+  float: left;
+}
+
+.Nasa-pic {
+  height: 110px;
+  width: 210px;
+}
+
+@media (max-width:600px) {
+    img{
+      width: 40%;
+      height: auto;
+    }
+}
+
+@@media (max-width 400px) {
+
+}
